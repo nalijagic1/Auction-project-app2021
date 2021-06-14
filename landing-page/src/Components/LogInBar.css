@@ -1,0 +1,20 @@
+.firstNav {
+    background-color: #252525;
+}
+
+.firstNav .logIn{
+    float: right;
+    display: inline;
+  }
+  .firstNav .socialMedia{
+    float:left;
+  }
+  .firstNav a {
+    color: #d5d5d5;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .firstNav p{
+    color: gray;
+  }
+  
