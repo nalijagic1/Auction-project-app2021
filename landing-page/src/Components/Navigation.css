@@ -22,7 +22,7 @@
   color: black;
 }
 
-.topnav a:active {
+.topnav a:focus {
   color: #aa97e4;
   font-weight: bold;
 }

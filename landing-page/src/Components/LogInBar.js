@@ -2,7 +2,7 @@ import './LogInBar.css';
 
 function LogInBar() {
   return(
-    <div class="firstNav">
+    <div class="nav">
       <div class = "socialMedia">
         <img src="../images/facebook.png" alt="facebook"></img>
         <img src="../images/instagram.png" alt="instagram"></img>
