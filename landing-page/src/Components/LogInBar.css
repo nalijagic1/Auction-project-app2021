@@ -1,14 +1,24 @@
 .nav{
     background-color: #252525;
-    display: inline;
+    width: 100%;
+    height: 40px;
+    
 }
 
 .nav .logIn{
     float: right;
-    display: inline;
+    margin-right: 178px;
+    margin-top:10px;
+    margin-bottom: 13pxy;
   }
   .nav .socialMedia{
+    margin-left: 160px;;
+    margin-top: 8px;
+    margin-bottom: 7px;;
     float:left;
+  }
+  .nav .socialMedia img{ 
+    margin: 5px;
   }
   .nav a {
     color: #d5d5d5;
@@ -16,5 +26,6 @@
   }
   .nav p{
     color: gray;
+    display: inline;
   }
   
