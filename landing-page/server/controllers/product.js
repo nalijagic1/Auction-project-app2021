@@ -32,12 +32,12 @@ exports.getNewProducts = async (req, res, next) => {
     try {
         const productsNew = await db.product.findAll(
             {order:[
-                ['startingDate','DESC']]},
-            {include:[
+                ['startingDate','DESC']],
+            include:[
                 {model:db.category},
-                {model:db.picture}
-            ]},
-            {limit:8}
+                {model:db.picture}],
+            limit:8
+          }
         );
       res.send(productsNew);
     } catch (err) {
@@ -50,12 +50,13 @@ exports.getOldProducts= async (req, res, next) => {
     try {
         const productsNew = await db.product.findAll(
             {order:[
-                ['endingDate','ASC']]},
-            {include:[
+                ['endingDate','ASC']],
+              include:[
                 {model:db.category},
-                {model:db.picture}
-            ]},
-            {limit:8}
+                {model:db.picture}],
+              limit:8  
+              }
+            
         );
       res.send(productsNew);
     } catch (err) {
