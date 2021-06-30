@@ -2,6 +2,8 @@ import './Offers.css'
 import Card from './Card';
 import {useEffect,useState} from "react";
 import {ApiUrl} from "../const"
+import { Link, withRouter } from "react-router-dom";
+import ReactDOM from "react-dom";
 function Offers() {
     const [products,setProducts] = useState()
     useEffect(() => {
@@ -38,7 +40,13 @@ function Offers() {
     <hr/>
     <ul class="pro">
     {products && products.map(p => (
-      <Card name = {p.name} imageURL={`https://res.cloudinary.com/dttoyjaor/image/upload/${p.pictures[0].publicId}`} price={p.startingPrice}/>
+      <Link  to={{
+        pathname:"/item",
+        data:p
+      }}>
+        <Card name = {p.name} imageURL={`https://res.cloudinary.com/dttoyjaor/image/upload/${p.pictures[0].publicId}`} price={p.startingPrice}/>
+      </Link>
+      
     ))}
     </ul>
   </div>
