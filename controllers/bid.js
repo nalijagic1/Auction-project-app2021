@@ -31,3 +31,14 @@ exports.getMaxBYId = async (req, res, next) => {
       }
     
     }
+
+    exports.addBidding = async (req, res, next) => {
+      const pro = req.body
+      try {
+          const newBid = await db.bids.create(pro)
+          res.send("New bid added");
+        } catch (err) {
+          res.status(500).json(err);
+        }
+      
+      }
