@@ -1,0 +1,35 @@
+.pro{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 29px;
+    width: 1100px;
+}
+
+.offers{
+    margin-left: 160px;
+}
+
+.options a{
+    margin-right: 68px;
+    font-family: Lato-Regular;
+    font-size: 28px;
+    color: #252525;
+    letter-spacing: 0.98px; 
+    text-decoration: none;
+}
+.pro img{
+    width: 260px;
+    height: 260px;
+}
+
+.options a:hover {
+    background-color: #FFFFFF;
+    color: black;
+  }
+  
+.options a:focus {
+
+    text-decoration: underline;
+    text-decoration-color:  #8367D8;
+  }

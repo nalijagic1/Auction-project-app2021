@@ -1,0 +1,21 @@
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 25px;
+    width: 1100px;
+}
+
+.naslov{
+    margin-left: 160px;
+}
+
+.naslov h3{
+    font-family: Lato-Regular;
+    font-size: 28px;
+    color: #252525;
+    letter-spacing: 0.98px;
+}
+.collection img{
+    width: 350px;
+    height: 350px;
+}

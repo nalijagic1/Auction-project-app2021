@@ -1,0 +1,1 @@
+export const ApiUrl =  process.env.NODE_ENV=="production"? "" :"localhost:3010"

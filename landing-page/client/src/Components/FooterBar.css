@@ -1,0 +1,61 @@
+.footer{
+    width:100%;
+    height: 300px;
+    padding-top:62px;
+    background: #252525;
+    border: 1px solid #979797;
+    display: flex;
+}
+
+.footer h3{
+    opacity: 0.5;
+font-family: Lato-Regular;
+font-size: 16px;
+color: #FFFFFF;
+letter-spacing: 0.56px;
+}
+
+.footer a{
+    font-family: Lato-Regular;
+font-size: 16px;
+color: #FFFFFF;
+letter-spacing: 0.56px;
+margin-bottom: 11px;
+}
+
+.footer .auction{
+    margin-left: 291px;
+    margin-right: 87px;
+}
+
+.footer .touch{
+    margin-right: 61px;
+}
+
+.touch .socialMedia img{ 
+    margin: 10px;
+  }
+
+  .newsletter input[type=text] {
+    background: #3B3B3B;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    letter-spacing: 0.56px;
+    width: 250px;
+    height: 35px;
+    margin-right: 7px;
+  }
+
+.newsletter button{
+    background-color: transparent;
+    border: 3px solid #8367D8;
+    font-family: Lato-Bold;
+font-size: 18px;
+color: #D8D8D8;
+letter-spacing: 0.63px;
+width: 105px;
+height: 40px;
+}  
+.emailEnter{
+    margin-top: 10px;
+}

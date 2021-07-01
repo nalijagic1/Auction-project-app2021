@@ -1,0 +1,25 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    width: 1100px;
+}
+
+.nProduct{
+    margin-left: 160px;
+}
+
+.nProduct h3{
+    font-family: Lato-Regular;
+font-size: 28px;
+color: #252525;
+letter-spacing: 0.98px;
+}
+.products img{
+    width: 260px;
+    height: 350px;
+}
+ hr{
+     width: 1150px;
+     margin: 0px;
+ }
