@@ -1,1 +1,1 @@
-export const ApiUrl =  process.env.NODE_ENV=="production"? "auction2.herokuapp.com" :"localhost:3010"g
+export const ApiUrl =  process.env.NODE_ENV=="production"? "auction2.herokuapp.com" :"localhost:3010"
