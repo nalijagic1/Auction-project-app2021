@@ -13,7 +13,7 @@ var allowCrossDomain = function (req, res, next) {
   next();
 }
 const app = express();
-const buildPath = path.join(__dirname, '..','client', 'build');
+const buildPath = path.join(__dirname,'client', 'build');
 app.use(express.static(buildPath));
 
 
