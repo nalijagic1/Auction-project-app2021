@@ -4,6 +4,7 @@ const { sequelize, init } = require('./models');
 
 const category = require('./routes/category');
 const product = require('./routes/product');
+const bid = require('./routes/bid');
 
 var allowCrossDomain = function (req, res, next) {
   res.header('Access-Control-Allow-Origin', "*");
@@ -21,6 +22,7 @@ app.use(allowCrossDomain);
 
 app.use('/categories', category);
 app.use('/product',product)
+app.use('/bids',bid)
 
 
 const port = process.env.PORT || 3010

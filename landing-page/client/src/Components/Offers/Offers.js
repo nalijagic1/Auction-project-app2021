@@ -1,7 +1,7 @@
 import './Offers.css'
-import Card from './Card';
+import Card from '../Card/Card';
 import {useEffect,useState} from "react";
-import {ApiUrl} from "../const"
+import {ApiUrl} from "../../const"
 import { Link, withRouter } from "react-router-dom";
 import ReactDOM from "react-dom";
 function Offers() {

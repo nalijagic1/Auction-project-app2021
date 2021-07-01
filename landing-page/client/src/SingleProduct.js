@@ -1,8 +1,6 @@
-import LogInBar from "./Components/LogInBar";
-import Navigation from "./Components/Navigation";
-import FooterBar from "./Components/FooterBar";
+import ItemHeader from "./Components/ItemHeader/ItemHeader";
+import ItemDetail from "./Components/ItemDetail/ItemDetail";
 import React, { Component } from "react";
-import Card from "./Components/Card";
 import { useLocation } from 'react-router-dom';
 function ItemPage() {
     const location = useLocation ();
@@ -10,6 +8,8 @@ function ItemPage() {
     console.log(data)
   return(
     <div>
+      <ItemHeader/>
+      <ItemDetail item = {data}/>
 </div>
   );
 }

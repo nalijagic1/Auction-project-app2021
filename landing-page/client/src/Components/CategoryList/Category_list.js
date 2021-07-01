@@ -1,6 +1,6 @@
 import './Category_list.css'
 import {useEffect,useState} from "react";
-import {ApiUrl} from "../const"
+import {ApiUrl} from "../../const"
 
 function CategoryList() {
   const [categories,setCategories] = useState()

@@ -1,6 +1,6 @@
 import "./itemPrewiew.css"
 import {useEffect,useState} from "react";
-import {ApiUrl} from "../const"
+import {ApiUrl} from "../../const"
 function ItemPreview() {
   const [p,setProduct] = useState([])
     useEffect(() => {

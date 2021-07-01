@@ -1,5 +1,5 @@
 import './Navigation.css';
-import cekic from '../images/hammer.png'
+import cekic from '../../images/hammer.png'
 function Navigation() {
   return(
     <div class="topnav">

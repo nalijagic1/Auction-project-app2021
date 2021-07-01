@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./LandingPage";
-import ItemPage from "./ItemPage";
-import LogInBar from "./Components/LogInBar";
-import Navigation from "./Components/Navigation";
-import FooterBar from "./Components/FooterBar";
+import ItemPage from "./SingleProduct";
+import LogInBar from "./Components/LogInBar/LogInBar";
+import Navigation from "./Components/Navigation/Navigation";
+import FooterBar from "./Components/FooterBar/FooterBar";
 function App() {
   return(
     <div>

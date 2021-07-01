@@ -1,7 +1,7 @@
 import './FProducts.css'
-import Card from './Card';
+import Card from '../Card/Card';
 import {useEffect,useState} from "react";
-import {ApiUrl} from "../const"
+import {ApiUrl} from "../../const"
 function FProducts() {
     const categories = [{id:1,name:"Fashion"},{id:2,name:"Accesories"},{id:1,name:"Fashion"},{id:1,name:"Fashion"}]
     const [products,setProducts] = useState()

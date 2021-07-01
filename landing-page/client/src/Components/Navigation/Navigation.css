@@ -46,7 +46,7 @@
   letter-spacing: 0.56px;
 }
 .topnav input[type=text] {
-  background: url(../images/search.png) no-repeat scroll 7px 7px;
+  background: url(../../images/search.png) no-repeat scroll 7px 7px;
   background-position: 95% center;
   width: 513px;
   padding: 10px;

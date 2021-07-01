@@ -1,8 +1,8 @@
 import './LogInBar.css';
-import facebook from "../images/facebook.png"
-import instagram from "../images/instagram.png"
-import twitter from "../images/twitter.png"
-import google from "../images/google-plus.png"
+import facebook from "../../images/facebook.png"
+import instagram from "../../images/instagram.png"
+import twitter from "../../images/twitter.png"
+import google from "../../images/google-plus.png"
 function LogInBar() {
   return(
     <div class="nav">
