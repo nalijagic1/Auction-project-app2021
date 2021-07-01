@@ -19,7 +19,7 @@
     "build": "react-scripts build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "cd ..  && yarn start"
+    "start": "cd ..  && npm run start"
   },
   "eslintConfig": {
     "extends": [
