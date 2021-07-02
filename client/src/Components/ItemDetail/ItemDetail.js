@@ -10,8 +10,8 @@ function ItemDetail({item}){
       }));
       const date = new Date(item.endingDate)
       const curdate = Date.now()
-      console.log(curdate)
-
+      //console.log(curdate)
+      var h  = 0;
     const [highBid,setHighBid] = useState([])
     const [allBids,setBids] = useState([])
     useEffect(() => {
@@ -19,22 +19,32 @@ function ItemDetail({item}){
       fetch(url)
           .then((response) => response.json())
             .then((data) => {
-            console.log(data)
+            //console.log(data)
             if(data.length==0){
               const obj = {"bid":item.startingPrice}
               setHighBid(obj)
+              h = item.startingPrice
             }else{
               setHighBid(data[0])
+              h = data[0].bid
             }
             
       });
-
       fetch("http://"+ApiUrl+"/bids/product/"+item.id)
           .then((response) => response.json())
             .then((data) => {
-            console.log(data)
+            //console.log(data)
             setBids(data)
       });
+
+      document.getElementById("place").addEventListener('click',(event) =>{
+        var myBid = document.getElementById('bidNumber').value
+        var onlyNum = /^\d+$/.test(myBid)
+        if(onlyNum && myBid >= h){
+            console.log("Vece je")
+        }
+        
+    });
 
     
   }, []);
@@ -47,7 +57,7 @@ function ItemDetail({item}){
                     <h1 class ="name">{item.name}</h1>
                     <h2>Start from - ${item.startingPrice}</h2>
                     <form class="forma">
-                        <input type="text" id="bid" name="enter"/> 
+                        <input type="text" id="bidNumber" name="enter"/> 
                         <button type="button" id ="place">PLACE BID   &gt;</button>
                         
                         <p> Enter ${highBid.bid} or more</p>

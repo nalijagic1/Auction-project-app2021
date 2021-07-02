@@ -3,6 +3,7 @@ import {useEffect,useState} from "react";
 import {ApiUrl} from "../../const"
 
 function CategoryList() {
+console.log(ApiUrl)
   const [categories,setCategories] = useState()
   useEffect(() => {
     fetch("http://"+ApiUrl+"/categories")
