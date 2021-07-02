@@ -2,7 +2,9 @@ const db = require('../models');
 
 exports.getAllBidsForProduct = async (req, res, next) => {
   try {
-    const bids = await db.bids.findAll({where:{productId:req.params.productId}});
+    const bids = await db.bids.findAll({where:{productId:req.params.productId},include:[
+      {model:db.user},
+  ]});
     res.send(bids);
   } catch (err) {
     res.status(500).json(err);

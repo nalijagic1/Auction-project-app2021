@@ -1,0 +1,109 @@
+.container-detail .info{
+    display: flex;
+    margin:0
+}
+
+.container-detail {
+    padding: 0px;
+    margin-left: 160px;
+    display: inline-block;
+}
+
+.details{
+    margin-left: 50px;
+    margin-top:39px;
+}
+
+.details hr{
+    width: 600px;
+}
+
+h1{
+    font-family: Lato-Regular;
+    font-size: 46px;
+    color: #252525;
+    letter-spacing: 1.61px;
+    margin: 0;
+}
+
+h2{
+    font-family: Lato-Regular;
+    font-size: 24px;
+    color: #8367D8;
+    letter-spacing: 0.84px;
+    margin-top: 14px;
+}
+
+.det h2{
+    font-family: Lato-Regular;
+font-size: 18px;
+color: #252525;
+letter-spacing: 0.63px;
+}
+
+.details input[type=text] {
+    background: #ECECEC;
+    border: 1px solid #D8D8D8;
+    width: 176px;
+    height: 54px;
+  }
+
+#place{
+    background: #FFFFFF;
+    border: 3px solid #8367D8;
+    box-shadow: 3px 3px 0 0 rgba(131,103,216,0.31);
+    margin-left: 21px;
+    height: 54px;
+    width: 192px;
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #252525;
+    letter-spacing: 0.63px;
+}
+
+.forma p {
+    font-family: Lato-Regular;
+    font-size: 15px;
+    color: #9B9B9B;
+    letter-spacing: 0.52px;
+    line-height: 22px;
+    margin-top: 9px;
+}
+
+.info h3{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #9B9B9B;
+    letter-spacing: 0.56px;
+}
+.info a{
+    font-family: Lato-Bold;
+    font-size: 16px;
+    color: #8367D8;
+    letter-spacing: 0.56px;
+}
+
+#watchlist{
+    background: #FFFFFF;
+    border: 3px solid #ECECEC;
+    width: 140px;
+    height: 36px;
+    background: url(../../images/heart.png) no-repeat scroll 5px 5px;
+    background-position: 90% center;
+    font-family: Lato-Regular;
+    font-size: 15px;
+    color: #252525;
+    letter-spacing: 0.52px;
+    line-height: 22px;  
+
+}
+
+.det p{
+    font-family: Lato-Regular;
+    font-size: 15px;
+    color: #252525;
+    letter-spacing: 0.53px;
+    line-height: 22px;
+    width: 600px;
+}
+  
