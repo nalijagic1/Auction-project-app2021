@@ -1,0 +1,45 @@
+.tbl{
+    width: 1120px;
+    margin-left: 160px;
+    margin-top: 180px;
+    margin-bottom: 350px;
+    border-collapse: collapse;
+    border:1px solid #D8D8D8;
+}
+
+.tbl th{
+    background: #F0F0F0;
+    font-family: Lato-Regular;
+    font-size: 18px;
+    color: #252525;
+    letter-spacing: 0.63px;
+    text-align: left;
+}
+
+.tbl td:nth-child(1){
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #252525;
+    letter-spacing: 0.63px;
+    font-weight: bold;
+}
+
+
+.tbl td:nth-child(2){
+font-family: Lato-Regular;
+font-size: 18px;
+color: #252525;
+letter-spacing: 0.63px;
+}
+
+.tbl td:nth-child(3){
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #252525;
+    letter-spacing: 0.63px;
+    font-weight: bold;
+}
+
+#highest{
+    color: #6CC047;
+}
